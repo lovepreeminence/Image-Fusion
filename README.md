@@ -69,7 +69,7 @@ This repository contains code reproductions of existing state-of-the-art image f
         <td>自监督</td>
         <td>2020</td>
         <td>125</td>
-        <td> </td>
+        <td>✓</td>
       </tr>
       <tr>
         <td>DDcGAN</td>
