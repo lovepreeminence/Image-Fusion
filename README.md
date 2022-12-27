@@ -1,48 +1,48 @@
 # Image-Fusion
 This repository contains code reproductions of existing state-of-the-art image fusion models, our work is still in progress
 
-FusionGAN
+    FusionGAN
 
-DenseFuse
+    DenseFuse
 
-DDcGAN
+    DDcGAN
 
-Detail-GAN
+    Detail-GAN
 
-NestFuse
+    NestFuse
 
-RFN-Nest
+    RFN-Nest
 
-GANMcC
+    GANMcC
 
-AttentionFGAN
+    AttentionFGAN
 
-STDFusionNet
+    STDFusionNet
 
-SeAFusion
+    SeAFusion
 
-DDcGAN
+    DDcGAN
 
-SEDRFuse
+    SEDRFuse
 
-DRF
+    DRF
 
-DIDFuse
+    DIDFuse
 
-MFEIF
+    MFEIF
 
-D2LE
+    D2LE
 
-MgAN-Fuse
+    MgAN-Fuse
 
-Perception-GAN
+    Perception-GAN
 
-RXDNFuse
+    RXDNFuse
 
-TC-GAN
+    TC-GAN
 
-TarDAL
+    TarDAL
 
-PIAFusion
+    PIAFusion
 
-DIVFusion
+    DIVFusion
