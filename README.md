@@ -5,7 +5,7 @@ This repository contains code reproductions of existing state-of-the-art image f
 
 
 
-## 多模图像融合(Multi-Modal Image Fusion)
+## 多模态图像融合(Multi-Modal Image Fusion)
 ### 红外和可见光图像融合(Infrared and visible image fusion)
 <table>
     <thead>
@@ -411,4 +411,4 @@ This repository contains code reproductions of existing state-of-the-art image f
     </table>
 
 ## Citation
-我们的总结参考了该仓库(https://github.com/Linfeng-Tang/Image-Fusion)：
+我们的总结参考了该仓库(https://github.com/Linfeng-Tang/Image-Fusion):
