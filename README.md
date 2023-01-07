@@ -57,7 +57,6 @@ This repository contains code reproductions of existing state-of-the-art image f
         <td>无监督</td>
         <td>2019</td>
         <td>51</td>
-        <td> </td>
       </tr>
       <tr>
         <td>NestFuse</td>
@@ -81,7 +80,7 @@ This repository contains code reproductions of existing state-of-the-art image f
         <td>无监督</td>
         <td>2020</td>
         <td>307</td>
-        <td> </td>
+        <td>✓</td>
       </tr>
       <tr>
         <td>DIDFuse</td>
@@ -141,7 +140,7 @@ This repository contains code reproductions of existing state-of-the-art image f
         <td>自监督</td>
         <td>2021</td>
         <td>43</td>
-        <td> </td>
+        <td>✓</td>
       </tr>
       <tr>
         <td>MFEIF</td>
@@ -409,6 +408,137 @@ This repository contains code reproductions of existing state-of-the-art image f
       </tr>
     </tbody>
     </table>
+
+## Datasets
+### M3FD数据集
+
+M3FD 包含高分辨率的红外和可见图像，涵盖各种场景下的不同对象类型 我们将 M3FD 中的所有 4200 个对齐对分为四种典型类型，即 Daytime、Overcast、Night 和 Challenge，其中有 10 个子场景如图 4 所示。同时，我们注释了 6 个类别的 33603 个对象，即 人像 , 汽车, 公共汽车, 摩托车, 卡车和灯, 常见于监控和自动驾驶。 M3FD 的数量和多样性为通过融合图像学习和评估目标检测提供了可能性。
+
+
+下载地址
+
+谷歌盘https://drive.google.com/drive/folders/1H-oO7bgRuVFYDcMGvxstT1nmy0WF_Y_6?usp=sharing
+
+百度云https://pan.baidu.com/s/1GoJrrl_mn2HNQVDSUdPCrw?pwd=M3FD
+
+### LLVIP数据集
+
+LLVIP数据集包含 30976 张图像即15488 对，其中大部分是在非常黑暗的场景下拍摄的，并且所有图像在时间和空间上都严格对齐，且数据集中的行人被标记。
+
+● 用于低光视觉的可见红外配对数据集
+● 30976 张图像（15488 对）
+● 24个黑暗场景，2个白天场景
+● 支持图像到图像的转换（可见光到红外线，或红外线到可见光）、可见光和红外图像融合、弱光行人检测和红外行人检测
+
+下载地址
+
+谷歌盘
+
+源数据raw：https://drive.google.com/u/0/uc?id=1a0zNvj1mBh1v_HFWJ43LFbNEq8YLXB9-&export=download
+
+对齐数据：https://drive.google.com/u/0/uc?id=1Jmm0Id-rZbmCj6JmJIzv5ld_scM6dkCt&export=download
+
+注册下载：https://bupt-ai-cz.github.io/LLVIP/
+
+### IRVI数据集
+
+IRVI数据集，具体来说，它有12个连续的车辆和监控场景视频片段，红外和可见光视频都可以分割成24352帧。综合实验验证，I2V-GAN 在翻译 I2V 视频方面优于对比的 SOTA 方法，具有更高的流畅度和更精细的语义细节。
+
+
+
+下载地址
+
+谷歌盘https://drive.google.com/file/d/1ZcJ0EfF5n_uqtsLc7-8hJgTcr2zHSXY3/view?usp=sharing
+
+百度云https://pan.baidu.com/s/1og7bcuVDModuBJhEQXWPxg?pwd=IRVI
+### COCO数据集
+
+COCO 是一个大规模的对象检测、分割和字幕数据集。COCO有几个特点：
+
+● 对象分割
+● 上下文识别
+● 超像素东西分割
+● 330K 图像（>200K 标记）
+● 150 万个对象实例
+● 80 个对象类别
+● 91个东西类别
+● 每张图片 5 个标题
+● 25万人有重点
+下载地址
+
+coco128
+
+coco128-账号密码：pimat87260@letpays.com
+
+直链地址：https://ultralytics.com/assets/coco128.zip
+
+https://paperswithcode.com/sota/object-detection-on-coco
+coco
+
+https://cocodataset.org/#download
+
+### TNO数据集
+
+TNO 多带图像收集系统提供了不同军事和监视场景的强化视觉(390-700nm) ，近红外(700-1000nm)和长波红外(8-12μm)夜间图像，显示不同的物体和目标(例如人，车辆)在不同的背景(例如农村，城市)。该数据集可用于开发静态和动态图像融合算法、颜色融合算法、多光谱目标检测和识别算法以及弱小目标检测算法。
+
+
+下载地址
+
+https://figshare.com/articles/dataset/TNO_Image_Fusion_Dataset/1008029
+
+
+
+### INO数据集
+
+INO数据集是由加拿大光学研究所发布的, 它包含了几对在不同天气和环境下的可见光和红外视频。比如：BackyardRunner、CoatDeposit、GroupFight、MulitpleDeposit 等。在对预训练模型测试过程中，一般从几个视频序列中随机挑选一些帧来验证模型的有效性。
+
+
+下载地址
+
+直链地址：https://inostorage.blob.core.windows.net/media/1546/ino_crossroads.zip
+
+
+### RoadScene数据集
+
+RoadScene 数据集包含221 对红外和可见光图像，它们选自于FLIR 视频序列，包含了丰富的生活场景，比如：马路、交通工具、行人等。该数据集对原始的红外图像的背景热噪声进行了预处理，并准确对齐红外和可见光图像对，最终裁剪出精确的配准区域以形成该数据集。
+
+
+下载地址
+
+直链地址：https://github.com/hanna-xu/RoadScene/archive/refs/heads/master.zip
+
+### MSRS数据集
+
+MFNet 数据集包含 1,569 个图像对（白天拍摄的 820 个，夜间拍摄的 749 个），空间分辨率为 480 × 640。但是，MFNet 数据集中存在许多未对齐的图像对，并且大多数红外图像的信噪比较低和低对比度。为此，我们首先通过移除 125 个未对齐的图像对来收集 715 个白天图像对和 729 个夜间图像对。此外，利用基于暗通道先验的图像增强算法来优化红外图像的对比度和信噪比。因此，发布了新的多光谱道路场景（MSRS) 数据集包含 1,444 对对齐的高质量红外和可见图像。
+
+
+下载地址
+
+MSRS直链地址:https://github.com/Linfeng-Tang/MSRS/archive/refs/heads/main.zip
+
+MFNet数据集：https://drive.google.com/drive/folders/1YtEMiUC8sC0iL9rONNv96n5jWuIsWrVY?usp=sharing
+
+
+### OTCBVS 数据集
+
+OTCBVS 数据集用于测试和评估一些新颖和先进的计算机视觉算法，它包括了多个子数据集，比如：热目标行人数据集、红外与可见光人脸数据集、自动驾驶数据集、红外与可见光行人数据集等。其中红外与可见光行人数据集拍摄于俄亥俄州立大学校园内繁忙的道路交叉口，包含了17 089 对红外与可见光图像对，图像大小为320×240。
+
+下载地址
+
+https://kings.blog.csdn.net/article/details/109052006
+
+### 其他
+
+https://blog.csdn.net/warningm_dm/article/details/120137977
+
+Visible-Infrared Database
+
+专为研究图像融合问题而设计的可见红外数据库，可用于红外线和可见光序列同步并配准，包含原始(未同步和未对齐）、已同步且未对齐、对齐的三类图像对，Camouflage[伪装]、Lab: Indoor、Patio: Outdoor、Guanabara Bay: Outdoor、Hangar[机库]、Trees6个场景。
+
+下载地址
+
+https://www02.smt.ufrj.br/~fusion/
+
 
 ## Citation
 我们的总结参考了该仓库(https://github.com/Linfeng-Tang/Image-Fusion):
