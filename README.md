@@ -538,6 +538,19 @@ MSRS直链地址:https://github.com/Linfeng-Tang/MSRS/archive/refs/heads/main.zi
 
 MFNet数据集：https://drive.google.com/drive/folders/1YtEMiUC8sC0iL9rONNv96n5jWuIsWrVY?usp=sharing
 
+### FLIR Thermal Starter 数据集
+
+该数据集提供了带注释的热成像数据集和对应的无注释RGB图像，用于训练和验证神经网络。数据是由安装在车上的RGB相机和热成像相机获取的。
+
+数据集总共包含14452张红外图像，其中10228张来自多个短视频；4224张来自一个长为144s的视频。所有视频都来自街道和高速路。大多数图片的采样率为1秒两帧，其中视频的帧率为1秒30帧；少数环境中目标较少时，采样率为1秒1帧。
+
+
+下载地址
+
+下载地址：https://pan.baidu.com/s/11GJe4MdM_NH6fuENCQ2MtQ 提取码:019b
+
+官方网站：https://www.flir.com/oem/adas/adas-dataset-form/
+
 
 ### OTCBVS 数据集
 
