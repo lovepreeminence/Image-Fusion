@@ -545,7 +545,7 @@ MFNet数据集：https://drive.google.com/drive/folders/1YtEMiUC8sC0iL9rONNv96n5
 数据集总共包含14452张红外图像，其中10228张来自多个短视频；4224张来自一个长为144s的视频。所有视频都来自街道和高速路。大多数图片的采样率为1秒两帧，其中视频的帧率为1秒30帧；少数环境中目标较少时，采样率为1秒1帧。
 
 
-下载地址
+
 
 下载地址：https://pan.baidu.com/s/11GJe4MdM_NH6fuENCQ2MtQ 提取码:019b
 
@@ -555,7 +555,6 @@ MFNet数据集：https://drive.google.com/drive/folders/1YtEMiUC8sC0iL9rONNv96n5
 
 KAIST行人数据集总共包括95328张图片，每张图片都包含RGB彩色图像和红外图像两个版本。总共包含103128个密集注释。数据集分别在白天和晚上捕获了包括校园、街道以及乡下的各种常规交通场景。图片大小为640×480。数据集总共分为12个文件夹set00-set11。前6个文件夹为训练集包含50187张图片，后6个文件夹为测试集包含45141张图片。
 
-下载地址
 
 下载地址：https://github.com/SoonminHwang/rgbt-ped-detection/blob/master/data/README.md
 
